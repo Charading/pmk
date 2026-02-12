@@ -1,0 +1,30 @@
+# Toolchain (downloaded by pmk setup)
+.toolchain/
+
+# Build artifacts
+boards/*/build/
+*.elf
+*.uf2
+*.bin
+*.hex
+*.map
+*.dis
+
+# PyInstaller
+PMK.exe
+dist/
+*.spec
+*_launcher.py
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
